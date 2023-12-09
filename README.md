@@ -16,7 +16,7 @@ Usage: python2 toms.py <target:_url:port>
 
 Example: `python2 toms.py http://<10.10.10.10.1:445>`
 
-Url: 	[title]http://10.10.10.1:445/management
+Url: http://10.10.10.1:445/management
 
-Fixed: debug operation with try,except block
-Fixed: receive input from the user and process it from the terminal
+### Fixed: debug operation with try,except block
+### Fixed: receive input from the user and process it from the terminal
