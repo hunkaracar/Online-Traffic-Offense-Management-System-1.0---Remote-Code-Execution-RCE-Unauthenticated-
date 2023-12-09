@@ -2,6 +2,9 @@
 
 ## Online Traffic Offense Management System 1.0 - Remote Code Execution (RCE) (Unauthenticated) has been fixed.
 
+<br>
+<br>
+
 ### Description
 
 When the exploit code asked us for a url and we gave the target url, the exploit worked, but when we entered commands such as id, whoami, pwd, the code exploded. For this, we go into the code and request = requests.post( find_shell.get("src") + "?cmd=" + cmd, data={'key':'value'}, headers=headers)
