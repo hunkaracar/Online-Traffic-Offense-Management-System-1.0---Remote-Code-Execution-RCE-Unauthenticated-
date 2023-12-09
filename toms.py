@@ -129,6 +129,7 @@ def exploit(target_url):
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python2 <python_file_name> <target_url>")
+        print("Exam: python2 toms.py http://10.10.10.1:445")
         sys.exit(0)
 
     target_url = sys.argv[1]
